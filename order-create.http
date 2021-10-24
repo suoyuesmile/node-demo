@@ -1,0 +1,9 @@
+# POST http://cat.let-workers-line-up-server.fn.igame.163.com/api/order HTTP/1.1
+POST http://10.242.184.70:8000/api/order HTTP/1.1
+content-type: application/json
+
+{
+  "userId": "shaosuo222",
+  "durationId": "1",
+  "menuId": 2
+}

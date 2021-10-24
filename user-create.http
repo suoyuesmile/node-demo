@@ -1,0 +1,9 @@
+POST http://10.242.184.70:8000/api/user/create HTTP/1.1
+content-type: application/json
+
+{
+  "id": "esresrsrser",
+  "email": "shaosuo@corp.netease.com",
+  "name": "邵锁",
+  "nickname": "帕克"
+}

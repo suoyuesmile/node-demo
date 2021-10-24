@@ -1,0 +1,32 @@
+# POST https://open.popo.netease.com/open-apis/mp/v1/token/get HTTP/1.1 
+# content-type: application/json
+
+# {
+#     "appKey": "wbJ33J3Tq1nvI37i5kLA",
+#     "appSecret": "4UPbKokFw12ZNWJRDShpg2jIBy772FZOhrXbVeneJ0Hpj1lTyEvTFDu51YaUoeHC"
+# }
+
+
+# POST https://open.popo.netease.com/open-apis/mp/v1/getOpenId HTTP/1.1 
+# content-type: application/json
+# header
+
+# {
+#     "appId": "578494612",
+#     "appSecret": "4UPbKokFw12ZNWJRDShpg2jIBy772FZOhrXbVeneJ0Hpj1lTyEvTFDu51YaUoeHC"
+# }
+
+# POST http://10.242.184.70:8000/api/user/openId HTTP/1.1
+# content-type: application/json
+
+# {
+#   "code": "wQBrN5YcQT0BSUNP"
+# }
+POST http://10.242.184.70:8000/api/robot/message HTTP/1.1
+content-type: application/json
+
+{
+  "sender": "grp.music-fe@corp.netease.com",
+  "receiver": "gurongyue@corp.netease.com",
+  "message": "吃饭啦"
+}

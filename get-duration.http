@@ -1,0 +1,5 @@
+# GET http://cat.let-workers-line-up-server.fn.igame.163.com/api/menu/get/duration?menuId=2 HTTP/1.1
+GET http://10.242.184.70:8000/api/menu/get/duration?menuId=2 HTTP/1.1
+
+# GET http://10.242.184.70:8000/api/order/get?userId=esresrsrser HTTP/1.1
+content-type: application/json
